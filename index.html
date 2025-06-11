@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Handmade Store</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      margin: 0;
+      background: #fff8f0;
+      color: #5c4033;
+    }
+    header {
+      background: #f7c8c8;
+      color: #5c4033;
+      padding: 1.5rem;
+      text-align: center;
+      border-bottom: 4px dotted #f4978e;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+    .card {
+      background: #fff0f5;
+      padding: 1rem;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      border: 2px dashed #f7c8c8;
+      transition: transform 0.2s ease;
+    }
+    .card:hover {
+      transform: scale(1.03);
+    }
+    .card img {
+      max-width: 100%;
+      border-radius: 12px;
+    }
+    .card h3 {
+      margin-top: 0.75rem;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 0.75rem;
+      padding: 0.5rem 1.2rem;
+      background: #f4978e;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.2s ease;
+    }
+    .btn:hover {
+      background: #d86f68;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      background: #ffe5e5;
+      border-top: 4px dotted #f7c8c8;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🌸 My Handmade Digital Store 🌸</h1>
+    <p>Lovingly made digital goodies for you!</p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200/ffe5e5/5c4033?text=Ebook" alt="Ebook Cover" />
+      <h3>Handmade Art eBook</h3>
+      <p>A gentle guide to doodling with love.</p>
+      <a href="https://gumroad.com" target="_blank" class="btn">Buy ₹199</a>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200/fff0f5/5c4033?text=Brushes" alt="Brush Set" />
+      <h3>Watercolor Brushes</h3>
+      <p>Soft and pastel Procreate brush set.</p>
+      <a href="https://gumroad.com" target="_blank" class="btn">Download ₹99</a>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200/fff8f0/5c4033?text=Course" alt="Course" />
+      <h3>Mini Sketch Course</h3>
+      <p>Draw your heart out in 5 days.</p>
+      <a href="https://gumroad.com" target="_blank" class="btn">Enroll ₹299</a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 My Handmade Digital Store ✨ With love and creativity 💖
+  </footer>
+</body>
+</html>
